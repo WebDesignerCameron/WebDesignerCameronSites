@@ -111,7 +111,7 @@ body {
     padding: 2rem 1rem;
     margin-top: 4rem;
 }
-.port-div, .price-div, .contact-div {
+.port-div, .price-div, .contact-div, .offer{
     align-items: center;
     justify-content: center;
     text-align: center;
