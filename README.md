@@ -1,4 +1,4 @@
-# WebDesignerCameronSites
+# WebDesignerCameron Sites
 The official WebDesignerCameron Sites website. Links: 
 * [The website](https://webdesignercameron.github.io/WebDesignerCameronSites) 
 * [My account](https://github.com/WebDesignerCameron)
