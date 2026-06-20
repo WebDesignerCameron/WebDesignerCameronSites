@@ -1,1 +1,135 @@
-body{font-family:"Calibri";}
+/* 1. Global Reset - Clears default browser gaps */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* 2. Header Layout (Flexbox aligns logo left, links right) */
+.main-header {
+    background-color: #1a1a1a;
+    padding: 1rem 5%;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.61rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem; /* Puts space between horizontal links */
+}
+
+.nav-bar a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+    color: #fff;
+}
+
+/* 3. Hero Section (Centres content dynamically) */
+.hero {
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* 4. Services Grid Layout */
+.services-section {
+    padding: 4rem 5%;
+    text-align: center;
+}
+
+.services-section h2 {
+    margin-bottom: 2rem;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows cards to drop to next line on mobile */
+    gap: 2rem;
+    justify-content: center;
+}
+
+.service-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    min-width: 280px; /* Forces cards onto new lines if screen is small */
+    max-width: 500px;
+}
+
+.service-card h3 {
+    margin-bottom: 1rem;
+    color: #2b5876;
+}
+
+/* 5. Footer Layout */
+.main-footer {
+    background-color: #1a1a1a;
+    color: #aaa;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 4rem;
+}
+.port-div, .price-div, .contact-div {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.foot-a {
+    color: white;
+}
+.foot-a:hover {
+    color: #8888ff;
+}
+.foot-a:visited {
+    color: #ff22ff;
+}
+.vis {
+    color: #ffffff;
+}
+h2 {
+    text-align: center;
+}
