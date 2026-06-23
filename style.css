@@ -1,4 +1,4 @@
-/* 1. Global Reset - Clears default browser gaps */
+/* Global Reset - Clears default browser gaps */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     background-color: #f9f9f9;
 }
 
-/* 2. Header Layout (Flexbox aligns logo left, links right) */
+/* Header Layout (Flexbox aligns logo left, links right) */
 .main-header {
     background-color: #1a1a1a;
     padding: 1rem 5%;
@@ -44,7 +44,7 @@ body {
     color: #fff;
 }
 
-/* 3. Hero Section (Centres content dynamically) */
+/* Hero Section (Centres content dynamically) */
 .hero {
     background: linear-gradient(135deg, #2b5876, #4e4376);
     color: #fff;
@@ -71,7 +71,7 @@ body {
     font-weight: bold;
 }
 
-/* 4. Services Grid Layout */
+/* Services Grid Layout */
 .services-section {
     padding: 4rem 5%;
     text-align: center;
@@ -103,15 +103,14 @@ body {
     color: #2b5876;
 }
 
-/* 5. Footer Layout */
+/* Footer Layout */
 .main-footer {
     background-color: #1a1a1a;
     color: #aaa;
     text-align: center;
-    padding: 2rem 1rem;
     margin-top: 4rem;
 }
-.port-div, .price-div, .contact-div, .offer{
+.port-div, .price-div, .contact-div {
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -132,4 +131,20 @@ body {
 }
 h2 {
     text-align: center;
+}
+.flexy, .port-div {
+    display: flex;
+}
+.p1 {
+    flex: 2;
+}
+.p2 {
+    flex: 2;
+}
+.nav-port, .port-left {
+    flex: 2;
+}
+.nav-port {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }

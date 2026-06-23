@@ -49,7 +49,7 @@
             .core-shape { fill: url(#brandGradient); }
           </style>
 
-          <rect width="100%" height="100%" rx="12" fill="#0B0F19"/>
+          <rect width="100%" height="100%" rx="0" fill="#0B0F19"/>
 
           <g transform="translate(60, 50)">
             <g filter="url(#subtleGlow)">
@@ -81,12 +81,6 @@
             <p>High-quality, clean, semantic websites built right here in Manchester.</p>
             <a href="#contact" class="btn">Get a Website</a>
         </section>
-        <section class="offer" >
-            <h2>Limited Offer</h2>
-            <p>The current prices are at their cheapest! 
-            Don't miss this opportunity to get cheap prices! 
-            The first 3 customers get this offer. </p>
-        </section>
 
         <!-- Services Section: Independent group of related content -->
         <section id="services" class="services-section">
@@ -110,9 +104,9 @@
                 </article>
             </div>
         </section><br>
-        <h2>Portfolio</h2>
+        <h2 id="portfolio">Portfolio and Links</h2>
         <div class="port-div">
-            <section id="portfolio">
+            <section class="port-left">
                 <h3>Cameron</h3>
                 <ul>
                     <li>Name: Cameron</li>
@@ -125,11 +119,19 @@
                     <li>at 10yrs, 3mths. </li>
                 </ul>
             </section>
+            <nav class="nav-port">
+                <h3>Links</h3>
+                <a href="https://github.com/WebDesignerCameron">WebDesignerCameron</a><br>
+                <a href="https://github.com/WebDesignerCameron/WebDesignerCameronSites">Page Info</a><br>
+                <h4>My Projects</h4>
+                <a href="https://webdesignercameron.github.io/pokemon-toxic">Pokemon Toxic</a><br>
+                <a href="https://webdesignercameron.github.io/WebDesignerCameronSites">WebDesignerCameron Sites</a>
+            </nav>
         </div><br>
 
-        <h2>Get a Website</h2>
+        <h2 id="contact">Get a Website</h2>
         <div class="contact-div">
-            <section id="contact">
+            <section>
                 <form action="https://formspree.io/f/xykarvab" method="POST" enctype="multipart/form-data" id="submission">
                     <label>Website Name: </label>
                     <input type="text" name="Name">
@@ -148,9 +150,9 @@
             </section>
         </div><br>
 
-        <h2>Prices</h2>
+        <h2 id="prices">Prices</h2>
         <div class="price-div">
-            <section id="prices">
+            <section>
                 <h3>Initial Prices(First Payment)</h3>
                 <p>
                     Small: £1.99<br>
@@ -169,12 +171,20 @@
                 <h3>Deals</h3>
                 <p>
                     Your fourth and tenth websites are free! Kids under 18 get 90% off maintenance price! If you buy 2 related websites, you get the second one free!
-                </p><br>
+                </p>
                 <h3>Comparison</h3>
-                <p>
-                    Other web design companies: $2500 to $10000
-                    <br>WebDesignerCameron Sites: $250 to $1000
-                </p><br>
+                <article class="flexy">
+                    <p id="p1">
+                        Other dealerships: $2500-$10000
+                        WebDesignerCameron Sites: $250-$1000
+                        WebDesignerCameron Sites w/ Limited Offers: $30-$90
+                    </p>
+                    <p>
+                        Other dealerships: £2000-£8000
+                        WebDesignerCameron Sites: £200-£800
+                        WebDesignerCameron Sites w/ Limited Offers: £25-£70
+                    </p>
+                </article>
                 <h3>Information</h3>
                 <p>
                     When you make a website via
@@ -193,8 +203,6 @@
         <p>2026 WebDesignerCameron Sites. </p><br>
         <div>
             <p>Made with</p><a href="https://github.com" class="foot-a">Github</a><p>via</p><a href="https://github.com/pages" class="foot-a">Github Pages</a>
-            <p>See my websites</p><a href="https://github.com/WebDesignerCameron" class="foot-a">Here.</a>
-            <p>Page Info</p><a href="https://github.com/WebDesignerCameron/WebDesignerCameronSites" class="foot-a" >Here. </a>
         </div>
     </footer>
 
