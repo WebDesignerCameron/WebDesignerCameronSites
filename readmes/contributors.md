@@ -1,5 +1,5 @@
-# Contributors
+<h1>Contributors</h1>
 I, Cameron, am the only contributor to 
 this website as of yet. I founded 
-WebDesignerCameronSites myself 
+WebDesignerCameron Sites myself 
 and coded it's website. 
