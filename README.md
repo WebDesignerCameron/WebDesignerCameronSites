@@ -1,5 +1,5 @@
 <h2>WebDesignerCameron Sites</h2>
-<img src="WDCSites-logo.jpg" width="100" >
+<img src="WDCSites-logo.jpg" width="350" >
 The official WebDesignerCameron Sites 
 website. Links: 
 <a href="https://webdesignercameron.github.io/WebDesignerCameronSites" >The website</a>
