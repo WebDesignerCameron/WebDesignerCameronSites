@@ -22,7 +22,6 @@ body {
 }
 
 .logo {
-    color: #fff;
     font-size: 1.61rem;
     font-weight: bold;
     text-decoration: none;
@@ -96,6 +95,7 @@ body {
     flex: 1;
     min-width: 280px; /* Forces cards onto new lines if screen is small */
     max-width: 500px;
+    color: black;
 }
 
 .service-card h3 {
